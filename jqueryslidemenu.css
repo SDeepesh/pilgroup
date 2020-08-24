@@ -1,0 +1,147 @@
+﻿.jqueryslidemenu{
+font: bold 11px Verdana;
+  background:transparent ;
+width: 100%;
+ z-index:2500;
+}
+
+.jqueryslidemenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li{
+position: relative;
+display: inline;
+float:left;
+}
+
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a{
+display: block;
+ background:transparent; /*background of tabs (default state)*/
+font-family:  "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+padding: 10px 8px;/*Ramani  :::   title background height */
+border-right: 0px;
+text-decoration: none;
+font-size:11pt;
+color:#FFFFFF;
+}
+
+* html .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+background:red;
+color:#FFFFFF;
+}
+
+.jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{
+color:#FFFFFF; /* Ramani  ::::  main menu links title font color*/
+
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+font-size: 10pt;
+
+}
+.jqueryslidemenu ul li ul li a:link, .jqueryslidemenu ul li ul li a:visited{
+color:black;
+
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+font-size: 10pt;
+
+}
+
+/*Ramani ::: Menu Selected Title Background */
+.jqueryslidemenu ul li a:hover{
+ background-image:url('images/bc3.jpg'); /*tab link background during hover state*/
+color:#FFFFFF;
+
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+font-size: 10pt;
+
+}
+	
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+font-size: 10pt;
+
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li{
+background:fuchsia;
+border:medium;
+display: list-item;
+float: none;
+color:white;
+text-align:left;
+
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+font-size: 10pt;
+
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li a:visited {
+color:black;/*ramani  : ::  sub menu links font color */
+
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+font-size: 10pt;
+
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+
+/*  Ramani :::  menu Links text color (on roll over  )*/
+.jqueryslidemenu ul li ul li a:hover {
+color: white;
+text-align:left;
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+font-size: 10pt;
+}
+
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul{
+
+
+top: 0;
+}
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+font: normal 11px Verdana; color:red;
+width: 150px; /*width of sub menus*/
+padding: 10px;
+margin: 0;
+border-top-width: 0;
+border-bottom: 1px solid  white;
+ background-image:url('images/back_drop2.png');
+
+}
+
+.jqueryslidemenuz ul li ul li a:hover{ /*sub menus hover style*/
+background:aqua;
+text-decoration:underline;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}

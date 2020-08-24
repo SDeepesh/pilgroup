@@ -1,0 +1,2 @@
+[24-Aug-2020 12:02:12 UTC] PHP Notice:  Undefined index: postname in /home/averysol/public_html/pil/enquiry.php on line 262
+[24-Aug-2020 12:02:12 UTC] PHP Notice:  Undefined variable: emailmessage in /home/averysol/public_html/pil/enquiry.php on line 393

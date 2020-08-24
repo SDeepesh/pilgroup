@@ -1,0 +1,66 @@
+
+<table style="width: 100%; height: 30px;" border="0" cellpadding="0" cellspacing="0" >
+					<tr>
+						<td class="top_link" bgcolor="#158686" colspan="6" style="height: 5px">
+						</td>
+					</tr>
+					<tr>
+					
+						<td class="auto-style1" style="height: 30px; background-image:url('pix/bc1.jpg')" >
+				
+				
+				
+				<div id="myslidemenu" class="jqueryslidemenu" align="center" style="height: 81%">
+<ul>
+
+
+<li style="width: 80px"><a href="default.asp">Home</a>
+ </li>
+<li style="width: 80px"><a href="aboutus.asp">About us</a>
+
+	
+</li>
+
+<li style="width: 80px"><a href="gallery.asp">Products</a>
+
+	<ul><%
+	
+set rtm1=createobject("adodb.recordset")
+
+	sqlstr="select DISTINCT type1 from Productmaster"
+rtm1.open sqlstr,cn,2,3%>
+
+	<%while rtm1.eof<> true%>
+	<li>
+	
+	<a href="gallery1.asp?cat=<%=rtm1("type1").value%>" > <%=rtm1("type1").value%></a>
+
+	</li>
+	<%rtm1.movenext
+	wend%>
+				
+	</ul>
+
+</li>
+
+<li style="width: 80px"><a href="contacts.asp">Contacts </a></li>
+
+<li style="width: 80px"><a href="enquiry.asp">Enquiry </a></li>
+
+<li style="width: 120px"><a href="contacts.asp">Request Catlog</a></li>
+
+
+</ul>
+
+<br style="clear: left" />
+</div>		
+				
+				</td>
+
+
+
+
+
+
+					</tr>
+				</table>

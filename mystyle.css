@@ -1,0 +1,416 @@
+﻿.top_menu_link {
+	text-align: center;
+	font-family:  "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size:12px;
+	color:#333333;
+ text-decoration:none;
+	
+}
+
+
+
+@font-face{
+       font-family: Trajan;
+       src:url('pix/Trajan1.ttf');
+      
+}
+
+.custom_font1
+{
+	
+	font-family: Trajan;
+	 font-size:15px;
+	 text-align:center;
+	 color: #386ca6;
+}
+
+
+
+
+.heading_style1
+{
+	 color:#ffffff;
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:10pt;
+	 
+	
+}
+
+.item_list1
+{
+	 text-align:left;
+	color:white;
+	font-size:10pt;
+ text-indent:5px;
+  border-bottom:thin;
+  border-bottom-style:solid;
+  border-bottom-color:#844274;
+   border-bottom-width:1px;
+	
+	list-style:circle;
+	line-height:25px;
+}
+
+
+.item_list2
+{
+	 text-align:left;
+	color:#ffffff;
+	font-size:12pt;
+ text-indent:5px;
+  border-bottom:thin;
+
+   font-family:  "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-bottom-style:solid;
+  border-bottom-color:#844274;
+   border-bottom-width:1px;
+	
+	list-style:circle;
+	line-height:25px;
+}
+
+
+
+
+#gradient {
+color: #fff;
+/* For WebKit (Safari, Google Chrome etc) */
+background: -webkit-gradient(linear, left top, left bottom, from(#dfdfdf), to(#ffffff));
+/* For Mozilla/Gecko (Firefox etc) */
+background: -moz-linear-gradient(top, #dfdfdf, #ffffff);
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#dfdfdf, endColorstr=#ffffff);
+/* For Internet Explorer 8 */
+ms-filter: "progidDXImageTransform.Microsoft.gradient(startColorstr#dfdfdf, endColorstr#ffffff)";
+}
+
+#gradient2 {
+color: #fff;
+
+
+/* For WebKit (Safari, Google Chrome etc) */
+background: -webkit-gradient(linear, left top, left bottom, from(#161c20), to(#000000));
+/* For Mozilla/Gecko (Firefox etc) */
+background: -moz-linear-gradient(top, #161c20, #000000);
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#161c20, endColorstr=#000000);
+/* For Internet Explorer 8 */
+ms-filter: "progidDXImageTransform.Microsoft.gradient(startColorstr#161c20, endColorstr#000000)";
+}
+
+
+
+#gradient223 {
+color: #fff;
+
+
+/* For WebKit (Safari, Google Chrome etc) */
+background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf));
+/* For Mozilla/Gecko (Firefox etc) */
+background: -moz-linear-gradient(top, #ffffff, #dfdfdf);
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#dfdfdf);
+/* For Internet Explorer 8 */
+ms-filter: "progidDXImageTransform.Microsoft.gradient(startColorstr#ffffff, endColorstr#dfdfdf)";
+}
+#gradient-radial {
+background: #863675; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #863675 1%, #10030d 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#863675), color-stop(100%,#10030d)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #863675 1%,#10030d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #863675 1%,#10030d 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #863675 1%,#10030d 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #863675 1%,#10030d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#863675', endColorstr='#10030d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+
+
+#gradient3 {
+color: #fff;
+
+
+/* For WebKit (Safari, Google Chrome etc) */
+background: -webkit-gradient(linear, left top, left bottom, from(#008ad8), to(#004a96));
+/* For Mozilla/Gecko (Firefox etc) */
+background: -moz-linear-gradient(top, #008ad8, #004a96);
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#008ad8, endColorstr=#004a96);
+/* For Internet Explorer 8 */
+ms-filter: "progidDXImageTransform.Microsoft.gradient(startColorstr#008ad8, endColorstr#004a96)";
+}
+
+
+
+
+
+
+#gradient4 {
+color: #fff;
+
+
+/* For WebKit (Safari, Google Chrome etc) */
+background: -webkit-gradient(linear, left top, left bottom, from(#F60), to(#FBAE20));
+/* For Mozilla/Gecko (Firefox etc) */
+background: -moz-linear-gradient(top, #ae0000, #3f0701);
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ae0000, endColorstr=#3f0701);
+/* For Internet Explorer 8 */
+ms-filter: "progidDXImageTransform.Microsoft.gradient(startColorstr#ae0000, endColorstr#3f0701)";
+}
+
+
+
+
+#gradientlf {
+
+height: 25px;
+
+/* For WebKit (Safari, Google Chrome etc) */
+background: -webkit-gradient(linear, left top, right top, from(#00f), to(#fff), color-stop(0.7, #fff));
+/* For Mozilla/Gecko (Firefox etc) */
+background: -moz-linear-gradient(left top, #00f, #fff 70%);
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#FF0000FF, endColorStr=#FFFFFFFF, GradientType=1);
+/* For Internet Explorer 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF0000FF, endColorstr=#FFFFFFFF, GradientType=1)";
+}
+
+.shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.shadow1 {
+	-moz-box-shadow: 3px 3px 4px #044;
+	-webkit-box-shadow: 3px 3px 4px #044;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+
+.shadow2 {
+
+	-moz-box-shadow: 0px 5px 50px #000000;
+	-webkit-box-shadow: 0px 5px 50px #000000;
+	box-shadow: outset 30px 300px 40px #000000;
+	
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=300, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=400, Color='#000000');
+}
+.link_heading {
+		text-align: left;
+	font-size: small;
+	line-height: normal;
+	color: #888888;
+font-weight:bold;
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.link_heading2 {
+		text-align: left;
+	font-size: small;
+	line-height: normal;
+	color: #ffffff;
+font-weight:bold;
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+
+.index_heading {
+	text-align: left;
+	font-size: small;
+	line-height: normal;
+color:gray;
+font-weight:bold;
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+}
+
+
+.full_text_heading {
+	text-align: left;
+	font-size: 10pt;
+	line-height: normal;
+color:gray;
+font-weight:bold;
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+}
+
+
+
+.full_text{
+
+margin-left:5px;
+margin-right:5px;
+	text-align:justify;
+	color: #adadad;
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 25px;
+	line-height:25px;
+
+}
+
+.full_text2{
+
+margin-left:5px;
+margin-right:5px;
+	text-align:justify;
+	color: #000000;
+	font-size: small;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+
+}
+
+.top_link{
+
+margin-left:5px;
+margin-right:5px;
+	text-align:center;
+	color: #ffffff;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.item_name{
+
+margin-left:5px;
+margin-right:5px;
+	text-align:left;
+	color: #808080;
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.gallery_head{
+
+margin-left:5px;
+margin-right:5px;
+text-align: left;
+	color: #18bdbd;
+	font-size: x-large;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+}
+
+.contact{
+
+margin-left:5px;
+margin-right:5px;
+text-align: left;
+	color: #000000;
+	font-size: medium;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+}
+
+.site_map{
+
+margin-left:5px;
+margin-right:5px;
+	text-align:left;
+	color: #ffffff;
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:20px;
+
+}
+
+
+.site_map_heading{
+
+margin-left:5px;
+margin-right:5px;
+	text-align:left;
+	color: #18bdbd;
+	font-size: medium;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+}
+
+
+.bottom_link{
+
+margin-left:5px;
+margin-right:5px;
+text-align: center;
+	color: #ffffff;
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.normal_text{
+
+margin-left:5px;
+margin-right:5px;
+	text-align:justify;
+	color: #000000;
+	font-size: x-small;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.paro_heading {
+	text-align: left;
+	font-size: x-large;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color:#4d4d4d
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
